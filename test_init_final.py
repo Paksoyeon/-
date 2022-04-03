@@ -1815,7 +1815,7 @@ class mainCog(commands.Cog):
 				embed = discord.Embed(
 						title = "----- 미예약 보스 -----",
 						description= tmp_boss_information[0],
-						color=0x0000ff
+						color=0xFFB2D9
 						)
 				await ctx.send( embed=embed, tts=False)
 			else:
@@ -1830,7 +1830,7 @@ class mainCog(commands.Cog):
 				embed = discord.Embed(
 					title = "----- 미예약 보스 -----",
 					description= tmp_boss_information[0],
-					color=0x0000ff
+					color=0xFFB2D9
 					)
 				await ctx.send( embed=embed, tts=False)
 				for i in range(len(tmp_boss_information)-1):
@@ -1845,7 +1845,7 @@ class mainCog(commands.Cog):
 					embed = discord.Embed(
 							title = '',
 							description= tmp_boss_information[i+1],
-							color=0x0000ff
+							color=0xFFB2D9
 							)
 					await ctx.send( embed=embed, tts=False)
 		else:
@@ -2449,7 +2449,7 @@ class mainCog(commands.Cog):
 				embed = discord.Embed(
 						title = "----- 보스탐 정보 -----",
 						description= boss_information[0],
-						color=#FFB2D9
+						color=0xFFB2D9
 						)
 				embed.add_field(
 						name="----- 미예약 보스 -----",
@@ -2467,7 +2467,7 @@ class mainCog(commands.Cog):
 				embed = discord.Embed(
 						title = "----- 보스탐 정보 -----",
 						description= boss_information[0],
-						color=0x0000ff
+						color=0xFFB2D9
 						)
 				await ctx.send( embed=embed, tts=False)
 				for i in range(len(boss_information)-1):
@@ -2479,7 +2479,7 @@ class mainCog(commands.Cog):
 					embed = discord.Embed(
 							title = '',
 							description= boss_information[i+1],
-							color=0x0000ff
+							color=0xFFB2D9
 							)
 					await ctx.send( embed=embed, tts=False)
 				###########################미예약보스출력
@@ -2494,7 +2494,7 @@ class mainCog(commands.Cog):
 				embed = discord.Embed(
 					title = "----- 미예약 보스 -----",
 					description= tmp_boss_information[0],
-					color=0x0000ff
+					color=0xFFB2D9
 					)
 				await ctx.send( embed=embed, tts=False)
 				for i in range(len(tmp_boss_information)-1):
@@ -2509,7 +2509,7 @@ class mainCog(commands.Cog):
 					embed = discord.Embed(
 							title = '',
 							description= tmp_boss_information[i+1],
-							color=0x0000ff
+							color=0xFFB2D9
 							)
 					await ctx.send( embed=embed, tts=False)
 
@@ -2626,7 +2626,7 @@ class mainCog(commands.Cog):
 			embed = discord.Embed(
 					title = "----- 고 정 보 스 -----",
 					description= fixedboss_information[0],
-					color=0x0000ff
+					color=0xFFB2D9
 					)
 			await ctx.send( embed=embed, tts=False)
 			for i in range(len(fixedboss_information)-1):
@@ -2638,7 +2638,7 @@ class mainCog(commands.Cog):
 				embed = discord.Embed(
 						title = '',
 						description= fixedboss_information[i+1],
-						color=0x0000ff
+						color=0xFFB2D9
 						)
 				await ctx.send( embed=embed, tts=False)
 
@@ -2651,7 +2651,7 @@ class mainCog(commands.Cog):
 			embed = discord.Embed(
 					title = "----- 보스탐 정보 -----",
 					description= boss_information[0],
-					color=0x0000ff
+					color=0xFFB2D9
 					)
 			await ctx.send( embed=embed, tts=False)
 			for i in range(len(boss_information)-1):
@@ -2663,7 +2663,7 @@ class mainCog(commands.Cog):
 				embed = discord.Embed(
 						title = '',
 						description= boss_information[i+1],
-						color=0x0000ff
+						color=0xFFB2D9
 						)
 				await ctx.send( embed=embed, tts=False)
 
@@ -2679,7 +2679,7 @@ class mainCog(commands.Cog):
 			embed = discord.Embed(
 				title = "----- 미예약 보스 -----",
 				description= tmp_boss_information[0],
-				color=0x0000ff
+				color=0xFFB2D9
 				)
 			await ctx.send( embed=embed, tts=False)
 			for i in range(len(tmp_boss_information)-1):
@@ -2694,7 +2694,7 @@ class mainCog(commands.Cog):
 				embed = discord.Embed(
 						title = '',
 						description= tmp_boss_information[i+1],
-						color=0x0000ff
+						color=0xFFB2D9
 						)
 				await ctx.send( embed=embed, tts=False)
 
